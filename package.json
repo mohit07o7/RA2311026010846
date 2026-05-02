@@ -1,0 +1,21 @@
+{
+  "name": "ra2311026010846",
+  "version": "1.0.0",
+  "description": "Campus hiring evaluation — backend track",
+  "scripts": {
+    "start": "node notification_app_be/server.js",
+    "dev": "node notification_app_be/server.js",
+    "scheduler": "node vehicle_maintenance_scheduler/server.js",
+    "priority": "node notification_app_be/priority_demo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.15.2",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  }
+}
